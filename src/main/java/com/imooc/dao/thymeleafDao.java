@@ -9,8 +9,7 @@ import org.mapstruct.Mapper;
  * @Description:
  */
 @Mapper
-public interface thymeleaf {
-
+public interface thymeleafDao {
 
      int  getById(int userId );
 }
