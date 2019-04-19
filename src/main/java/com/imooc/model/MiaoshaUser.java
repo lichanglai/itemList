@@ -1,5 +1,6 @@
 package com.imooc.model;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 public class MiaoshaUser {
@@ -11,6 +12,16 @@ public class MiaoshaUser {
 	private Date registerDate;
 	private Date lastLoginDate;
 	private Integer loginCount;
+	private BigDecimal discount;
+
+	public BigDecimal getDiscount() {
+		return discount;
+	}
+
+	public void setDiscount(BigDecimal discount) {
+		this.discount = discount;
+	}
+
 	public Long getId() {
 		return id;
 	}
